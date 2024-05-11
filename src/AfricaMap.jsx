@@ -52,7 +52,6 @@ const AfricaMap = () => {
           height="200%"
           style={{ transform: `scale(${zoomLevel})` }}
         >
-          {/* Paste your SVG code here */}
           <path
             id="Benin"
             style={{

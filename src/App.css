@@ -6,9 +6,9 @@
 }
 
 .svgContainer {
-  width: 100%; /* Adjust the width as needed */
-  height: auto; /* Allow the height to adjust automatically */
-  position: relative; /* Add this line */
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 
 .map{
@@ -18,12 +18,12 @@
 }
 
 .zoomButtons {
-  position: absolute; /* Change to absolute */
+  position: absolute;
   bottom: 10px;
-  right: 240px; /* Adjust right position as needed */
+  right: 240px;
   display: flex;
-  flex-direction: column; /* Change the flex-direction to column */
-  gap: 10px; /* Add some gap between the buttons */
+  flex-direction: column;
+  gap: 10px; 
   z-index: 999;
 }
 
