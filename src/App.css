@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.svgContainer {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Allow the height to adjust automatically */
+  position: relative; /* Add this line */
+}
+
+.map{
+  border: 1px solid #333333;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.zoomButtons {
+  position: absolute; /* Change to absolute */
+  bottom: 10px;
+  right: 240px; /* Adjust right position as needed */
+  display: flex;
+  flex-direction: column; /* Change the flex-direction to column */
+  gap: 10px; /* Add some gap between the buttons */
+  z-index: 999;
+}
+
+.zoomButton {
+  width: 10px;
+  bottom: 20px;
+  height: 40px;
+  border-radius: 20%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
